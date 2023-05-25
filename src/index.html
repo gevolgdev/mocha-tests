@@ -9,19 +9,15 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
   <script>
     let assert = chai.assert;
+    let expect = chai.expect;
+    let be = chai.be;
   </script>
 </head>
-
 <body>
-
   <script src="./percentage.js"></script>
-  <!-- the script with tests (describe, it...) -->
-  <script src="./tests.spec.js"></script>
-
-  <!-- the element with id="mocha" will contain test results -->
+  <script src="./verifyPalindromo.js"></script>
+  <script src="./tests/tests.spec.js"></script>
   <div id="mocha"></div>
-
-  <!-- run tests! -->
   <script>
     mocha.run();
   </script>
